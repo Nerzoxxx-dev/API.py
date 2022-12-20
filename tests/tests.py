@@ -8,7 +8,7 @@ res = api.get("fact")
 print(res)
 """
 
-api = Api("https://panel.seihost.fr/", expectedOutputFormat="json", baseHeaders={'Authorization': 'Bearer ptla_IIbiKs4IDi5m7JSWAv9NobCNh3JkH9z9wWnXCmE3geI',
+api = Api("https://panel.seihost.fr/", expectedOutputFormat="json", baseHeaders={'Authorization': '',
   'Accept': 'application/json', 
   'Content-Type': 'application/json'}, controllErrorCode=True, debug=True)
 
